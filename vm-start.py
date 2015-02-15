@@ -1,17 +1,7 @@
 #!/usr/local/bin/python
-# Spins up a VM on Digital Ocean
-# 
-# This is based mostly on the 'tugboat' configuration, but needs an API token
-# in the config, like so (in ~/.tugboat):
-# 
-# authentication:
-#   client_key: ...
-#   api_key: ...
-#   token: ...
-# defaults:
-#   ssh_key: <identifier num>
 #
-# It also requires a cloudint user-data file to be supplied.
+# Spins up a VM on Digital Ocean with User data (cloudinit)
+# 
 
 import sys
 import yaml
